@@ -45,6 +45,7 @@
 		0D7E56311EF6FAEE00E18538 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = Solitaire/ViewController.m; sourceTree = SOURCE_ROOT; };
 		0D7E56321EF6FAEE00E18538 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = Solitaire/Assets.xcassets; sourceTree = SOURCE_ROOT; };
 		0D7E56351EF6FAEE00E18538 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
+		0DC0D6951F0821C800E89BC7 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +64,7 @@
 			children = (
 				0D30C8971BC4914300F31034 /* Solitaire */,
 				0D30C8961BC4914300F31034 /* Products */,
+				0DC0D6941F0821C800E89BC7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -120,6 +122,14 @@
 			name = Base.lproj;
 			path = Solitaire/Base.lproj;
 			sourceTree = SOURCE_ROOT;
+		};
+		0DC0D6941F0821C800E89BC7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0DC0D6951F0821C800E89BC7 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
@@ -321,6 +331,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 4F7N2TM73Q;
 				INFOPLIST_FILE = Solitaire/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kpphillips.Solitare;
@@ -337,6 +348,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 4F7N2TM73Q;
 				INFOPLIST_FILE = Solitaire/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kpphillips.Solitare;
